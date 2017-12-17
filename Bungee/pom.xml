@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>commandsync-bungee</artifactId>
+  <version>BUNGEE</version>
+  <name>CommandSync Bungee</name>
+	
+	<parent>
+		<groupId>me.cookloco</groupId>
+		<artifactId>commandsync-parent</artifactId>
+		<version>parent</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>	
+
+	<dependencies>
+		<!-- PACKAGE MODULES (API) -->
+		<!-- CORE DEPENDENCES -->
+		<dependency>
+			<groupId>net.md-5</groupId>
+			<artifactId>bungeecord-api</artifactId>
+			<version>1.11-SNAPSHOT</version>
+			<type>jar</type>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.md-5</groupId>
+			<artifactId>bungeecord-api</artifactId>
+			<version>1.11-SNAPSHOT</version>
+			<type>javadoc</type>
+			<scope>provided</scope>
+		</dependency>
+		<!-- PLUGIN DEPENDENCES -->
+		<!-- LIBS DEPENDENCES -->
+	</dependencies>
+</project>
